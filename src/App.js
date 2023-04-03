@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
+// import Komponen from './Materi/Komponen';
+
+// Button
+import Button from './Materi/Komponen/Pembahasan/BasicComponent-Task/Button';
+// Navbar
+import Navbar from './Materi/Komponen/Pembahasan/BasicComponent-Task/Navbar';
+// Footer
+import Footer from './Materi/Komponen/Pembahasan/BasicComponent-Task/Footer';
+// ClassComponent
+import ClassComponent from "./Materi/Komponen/Pembahasan/ClassComponent";
+
+
+// bisa juga menggunakan arrow function: const App  () => {}
 function App() {
+
+  // navbar
+  const navHeading= "Navigation Bar";
+  const navText= "More...";
+
+  //button
+  const clicked = () => {
+    return alert("HALLO!");
+  };
+
+  // paragraf
+  const paragraf = () => {
+    return (
+      <div>
+        <marquee> 
+          BASIC COMPONENT REACTJS 
+        </marquee>
+      </div>
+    );
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        <br/>
-        Ok sudah ditambahkan 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar text={navText} heading={navHeading} />
+      <Button clicked={clicked} />
+      <ClassComponent/>
+      <Footer paragraf={paragraf} />
     </div>
   );
 }
