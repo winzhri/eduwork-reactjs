@@ -21,6 +21,7 @@ class ClassComponent extends React.Component {
 			<div>
 				{/* <h1> Komponen ini dibuat dengan Class Component </h1> */}
 				{/* <h2> Hi {this.props.nama} </h2> */}
+				
 				<button onClick = {this.handleMinus}> - </button>
 				<span> {' '} {this.state.value} {' '} </span>
 				<button onClick= {this.handlePlus}> + </button>
