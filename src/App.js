@@ -1,24 +1,10 @@
-import React from "react";
-import "./Materi/StylingWeb/Style.css";
-import NavBar from "./Materi/Web/Navbar";
-import MainContainer from "./Materi/Web/MainContainer";
-import MainCard from "./Materi/Web/MainCard";
-
+// import React from "react";
+import Form from "./Materi/Form";
 
 function App() {
 	return (
 		<div className="App">
-			<div className="WebBg">
-				<NavBar />
-				<MainContainer />
-			</div>
-
-			<div className="content">
-				<MainCard />
-			</div>
-			
-			<div className="end">
-			</div>
+			<Form />
 		</div>
 	);
 }
