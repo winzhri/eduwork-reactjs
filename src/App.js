@@ -1,10 +1,10 @@
 // import React from "react";
-import Form from "./Materi/Form";
+import Lifecycle from "./Materi/Lifecycle";
 
 function App() {
 	return (
 		<div className="App">
-			<Form />
+			<Lifecycle />
 		</div>
 	);
 }
