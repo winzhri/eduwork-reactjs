@@ -1,10 +1,10 @@
 // import React from "react";
-import Lifecycle from "./Materi/Lifecycle";
+import HookNewsApp from "./Materi/Hooks/Task/HookNewsApp";
 
 function App() {
 	return (
 		<div className="App">
-			<Lifecycle />
+			<HookNewsApp />
 		</div>
 	);
 }

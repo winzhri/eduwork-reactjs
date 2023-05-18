@@ -11,5 +11,3 @@ export default class Lifecycle extends React.Component {
         )
     }
 } 
-
-
