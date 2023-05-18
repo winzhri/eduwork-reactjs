@@ -1,10 +1,10 @@
-// import React from "react";
-import Lifecycle from "./Materi/Lifecycle";
+import React from "react";
+import Hooks from "./Materi/Hooks";
 
 function App() {
 	return (
 		<div className="App">
-			<Lifecycle />
+			<Hooks />
 		</div>
 	);
 }

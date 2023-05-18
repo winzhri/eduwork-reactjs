@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
-import "../StylingWeb/Style.css";
+import "./StylingWeb/Style.css";
 
 export default class NavBar extends React.Component {
     render() {
@@ -15,18 +15,17 @@ export default class NavBar extends React.Component {
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
               <Nav.Link href="#action1"> Home </Nav.Link>
               <Nav.Link href="#action2"> About </Nav.Link>
-              <Nav.Link href="#action2"> Project </Nav.Link>
+              <Nav.Link href="#action3"> Project </Nav.Link>
               <NavDropdown title="Others" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3"> Resume </NavDropdown.Item>
-                <NavDropdown.Item href="#action4"> Social Media </NavDropdown.Item>
+                <NavDropdown.Item href="#action4"> Resume </NavDropdown.Item>
+                <NavDropdown.Item href="#action5"> Social Media </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5"> Separated link </NavDropdown.Item>
+                <NavDropdown.Item href="#action6"> Separated link </NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
 
     );
   }
