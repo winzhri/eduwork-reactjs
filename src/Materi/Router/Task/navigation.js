@@ -7,7 +7,7 @@ function Navigation() {
     <div className="navigation">
       <nav className="navbar navbar-expand navbar-dark bg-warning">
         <div className="container">
-          <NavLink className="navbar-brand" to="/home">
+          <NavLink className="navbar-brand" to="/company">
             <h2> Web Studio </h2>
           </NavLink>
           <div>
