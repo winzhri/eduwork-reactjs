@@ -1,3 +1,20 @@
+import Redux from "./Materi/Redux";
+
+function App() {
+  return (
+    <div className="App">
+      <Redux />
+    </div>
+  )
+}
+
+export default App;
+
+
+
+
+
+
 // import { Link, Outlet } from 'react-router-dom';
 // import './App.css';
 
@@ -29,19 +46,19 @@
 // export default App;
 
 
-import { Outlet } from 'react-router-dom';
-import './App.css';
-import React from 'react'
+// import { Outlet } from 'react-router-dom';
+// import './App.css';
+// import React from 'react'
 
-function App() {
-  return (
-    <div className="App"> <br />
-      {/* <h1>This is Homepage</h1> */}
+// function App() {
+//   return (
+//     <div className="App"> <br />
+//       {/* <h1>This is Homepage</h1> */}
 
-      <Outlet />
+//       <Outlet />
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
